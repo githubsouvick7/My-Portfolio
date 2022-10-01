@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: linear-gradient(rgba(4, 5, 30, 1.7), rgba(-0, 30, 30, 0.7)), url(photo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    width: 100vw;
+    position: sticky;
+}
+
+.nav-menu {
+    width: 60%;
+    height: auto;
+    position: sticky;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: sticky;
+}
+
+.nav-menu ul li {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-menu ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-menu ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.nav-menu ul li:hover::after {
+    width: 100%;
+}
+
+.navbar span {
+    justify-content: flex-start;
+    display: none;
+}
+
+#span {
+    position: fixed;
+}
+
+/* main tag */
+
+.space {
+    width: 100vw;
+    height: 120px;
+}
+
+.resume h2 {
+    color: #ccc;
+}
+
+.first {
+    color: #ccc;
+    margin: 65px;
+}
+
+.first p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.resume {
+    margin-left: 65px;
+
+    width: 70vw;
+}
+
+.downlode {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #f44336;
+    padding: 12px 30px;
+    font-size: 14px;
+    background: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.third {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.third-section {
+    width: 50vw;
+    height: auto;
+    color: #ccc;
+    text-align: left;
+
+}
+
+.skill {
+    display: block;
+
+}
+
+.skill-work {
+    margin-top: 10px;
+    width: 40vw;
+    height: 40px;
+    border: 1px solid #f44336;
+    border-bottom: 4px solid #f44336;
+    border-radius: 4px 4px 8px 8px;
+}
+
+.skill-work h1 {
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+.new-section{
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+}
+.main-box{
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+.main-box h1{
+    color: #ccc;
+    margin-bottom: 40px;
+}
+.image-one{
+    width: 450px;
+    margin: 5px;
+}
+.project-one{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.project-two{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.four-new-section h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.full-contact{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name-from{
+    width: 400px;
+    margin: 16px;
+    padding: 8px;
+    border: 1px solid #f44336;
+}
+.button{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+.last{
+    margin: 10px;
+    color: #ccc;
+}
+.wrapper .button {
+    display: inline block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0 0 0 0.1);
+    transition: 0.4s;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267B2;
+    border: 2px solid #4267B2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: green;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #1da1f2;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: rgb(236, 20, 20);
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #0055ff;
+}
+
+.wrapper .button:nth-child(6):hover .icon {
+    background: #3d3f42;
+}
+
+.wrapper .button:nth-child(7):hover .icon {
+    background: #f71156;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: #4267B2;
+    
+}
+
+.wrapper .button:nth-child(2) span {
+    color: green;
+}
+
+.wrapper .button:nth-child(3) span {
+    color: #1da1f2;
+}
+
+.wrapper .button:nth-child(4) span {
+    color: rgb(236, 20, 20);
+}
+
+.wrapper .button:nth-child(5) span {
+    color: #0055ff;
+}
+
+.wrapper .button:nth-child(6) span {
+    color: #3d3f42;
+}
+
+.wrapper .button:nth-child(7) span {
+    color: #f71156;
+}
+
+.icon-all{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width:700px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .skill-work {
+        width: 70vw;
+    }
+
+    .third {
+        justify-content: flex-start;
+        width: 70vw;
+        margin-left: 50px;
+    }
+
+    .navbar {
+        width: 100vw;
+        justify-content: flex-start;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu ul li:hover::after {
+        width: 80px;
+    }
+
+    .navbar span {
+        display: contents;
+        position: inherit;
+    }
+
+    .nav-menu ul {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        text-align: center;
+        background-color: black;
+    }
+
+    .nav-menu ul li {
+        display: block;
+        background-color: black;
+    }
+
+    .project-one{
+        display: block;
+    }
+    .project-two{
+        display: block;
+    }
+    .image-one{
+        width: 250px;
+        
+    }
+    .name-from{
+        width: 80vw;
+    }
+
+}
