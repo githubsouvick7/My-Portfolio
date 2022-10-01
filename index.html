@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <span id="span"><i class="fa fa-bars" id="show" onclick="toggleHide()"
+                    style="font-size:48px;color:white"></i></span>
+            <div class="nav-menu" id="block">
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Skill</li>
+                    <li>Project</li>
+                    <li>Contcat me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="second">
+        <div class="first">
+            <h1>Hello , I am Souvick Chakraborty</h1>
+            <p>
+                To become a successful professional in the field of Networking <br> and to work in an innovative and
+                competitive
+                world. <br>
+                Seeking a position in an organization were skills and abilities can be creatively utilized.
+            </p>
+        </div>
+        <div class="resume">
+            <h2>Want to know more about me click on "Downlode Resume" </h2>
+        </div>
+        <div class="downlode">
+            <button class="btn"><a href="https://drive.google.com/file/d/1ZIoJOl14v7UffBtjgpgUfvT00Rqm0nFk/view?usp=sharing" target="_blank">Downlode Resume</a></button>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <section class="third">
+        <div class="third-section">
+            <h1>SKILL</h1><br>
+            <div class="skill">
+                <div class="skill-work">
+                    <h1>JavaScript</h1>
+                </div>
+                <div class="skill-work">
+                    <h1>Java</h1>
+                </div>
+                <div class="skill-work">
+                    <h1>NodeJs</h1>
+                </div>
+                <div class="skill-work">
+                    <h1>React JS</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <section class="new-section">
+        <div class="main-box">
+            <h1>My Project</h1>
+            <div class="project-one">
+                <img class="image-one" src="work1.jpg" alt="">
+                <img class="image-one" src="work1.jpg" alt="">
+            </div>
+            <div class="project-two">
+                <img class="image-one" src="work2.jpg" alt="">
+                <img class="image-one" src="work2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="space"></div>
+    <section class="four-new-section">
+        <h1>Contact Me</h1>
+        <div class="full-contact">
+
+            <div class="from">
+                <input class="name-from" type="name" placeholder="Enter Your Name">
+                <input class="name-from" type="email" placeholder="Enter Your Email">
+                <input class="name-from" type="text" placeholder="Enter your Massege">
+            </div>
+
+        </div>
+        <div class="button"><button class="btn">Submit</button></div>
+    </section>
+    <div class="space"></div>
+    <div class="icon-all">
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon"><i class="fab fa-facebook"></i></div>
+                <a href="https://www.facebook.com/souvick.chakraborty.547/"><span>Facebook</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                <a href="https://wa.me/8617566683"><span>Whatsapp</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-twitter"></i></div>
+                <a href="https://twitter.com/hellosouvickk"><span>Twitter</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-youtube"></i></div>
+                <a href="https://www.youtube.com/channel/UCoyPJIPcj344Mb0v_epf0dg" target="_blank"><span>YouTube</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-linkedin"></i></div>
+                <a href="https://www.linkedin.com/in/souvick-chakraborty-51249b221/"><span>Linkedin</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-github"></i></div>
+                <a href="https://github.com/githubsouvick7"><span>Github</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-instagram"></i></div>
+                <a href="https://www.instagram.com/i_am_souvick_/"><span>Instagram</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="space"></div>
+    <footer class="footer">
+        <div class="last">
+            <h1>Thank you for giving your valuable time I hope you like my page for any quary you can reach out me here
+                <br>- Souvick Chakraborty
+            </h1>
+        </div>
+    </footer>
+    <script>
+        function toggleHide() {
+            let show = document.getElementById('show');
+            let block = document.getElementById('block');
+            if (block.style.display != 'none') {
+                block.style.display = 'none'
+            }
+            else {
+                block.style.display = 'block'
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
